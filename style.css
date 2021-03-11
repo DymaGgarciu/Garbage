@@ -1,0 +1,102 @@
+.center-content {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* max-height */
+header {
+    height: 60px;     
+    
+}
+/* vmseto margin pading */
+.menu-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo {
+  
+    
+    width: 25px;
+    height: 25px;
+    background: #5E81FE;
+    border-radius: 50%;
+    opacity: 90%;
+    transition: .2s;
+    
+}
+
+.logo:hover{
+    
+    transform: scale(1.1);
+    
+}
+
+.head-btn-1 {
+    margin-left: 70px;
+    background: none;
+    border: none;
+    color: #697CA6;
+    margin-top: 5px;
+    cursor: pointer;
+    
+}
+.head-btn-1:hover{
+    color: #5E81FE;
+
+}
+
+.head-btn {
+    margin-left: 30px;
+    background: none;
+    border: none;
+    color: #697CA6;
+    cursor: pointer;
+}
+
+.head-btn:hover{
+    color: #5E81FE;
+}
+
+.social-icon {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.social-icon svg:hover{
+    stroke: #6188FF;
+    fill: initial;
+    cursor: pointer;
+
+}
+
+.get-started {
+    background-color: #D2E1FF;
+    padding: 15px 15px 15px 15px;
+    border: none;
+    color: #3A79FF;
+    margin-top: 5px;
+    border-radius: 5px;    
+}
+.get-started:hover{
+    transition: .2s;
+    color: #526ca5;
+    cursor: pointer;
+    
+    
+}
+/* vmseto div dati border na header */
+.line {
+    position: absolute;
+    background-color: #D8E3FE;
+    border: 1px solid;
+    width: 100%;
+    opacity: 3%;
+    padding: 0;
+    margin-top: 10px;
+}
